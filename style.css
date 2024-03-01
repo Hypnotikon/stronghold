@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c89666;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-family: 'roboto';
+  letter-spacing: 0.1rem;
+  font-size: 5rem;
+}
+
+.container {
+  width: 30%;
+  border: none;
+  position: relative;
+}
+
+.card {
+  width: 100%;
+  border-radius: 15px;
+  font-family: 'ubuntu';
+  border: 5px solid rgba(174, 5, 38, 0.8);
+  margin-top: 5rem;
+  font-size: 3rem;
+  padding-left: 2rem;
+  font-weight: 800;
+  background-color: rgb(185, 111, 19);
+}
+
+.win {
+  background-color: rgb(250 110 100 / 0.3);
+  border: 5px solid rgba(0, 69, 200, 0.8);
+  background-color: aquamarine;
+}
+
+button {
+  font-size: 5rem;
+  font-family: 'roboto';
+  transition: transform 0.3s;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(218, 218, 236), rgb(187, 187, 212));
+}
+button + button {
+  margin-left: 15rem;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.card span {
+  position: absolute;
+  left: 50%;
+}
+
+.average {
+  font-size: 5rem;
+  position: fixed;
+  right: 10rem;
+  top: 0;
+  font-size: 3rem;
+}
